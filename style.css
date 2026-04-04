@@ -37,3 +37,12 @@ body {
   color: #00aaff; /* cyan accent */
   margin-top: 40px;
 }
+a {
+  color: #00aaff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
