@@ -69,5 +69,17 @@ a:hover {
   font-size: 14px;
   color: #888888;
 }
+.back-button {
+  display: inline-block;
+  margin: 20px;
+  font-size: 20px;
+  color: #00aaff;
+  text-decoration: none;
+}
+
+.back-button:hover {
+  text-decoration: underline;
+}
+
 
 
