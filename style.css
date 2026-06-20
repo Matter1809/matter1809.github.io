@@ -102,6 +102,15 @@ a:hover {
   text-decoration: underline;
 }
 
+<div class="accent-picker">
+  <div class="accent-option" data-color="#D65465" style="background:#D65465;"></div>
+  <div class="accent-option" data-color="#00aaff" style="background:#00aaff;"></div>
+  <div class="accent-option" data-color="#8E44AD" style="background:#8E44AD;"></div>
+  <div class="accent-option" data-color="#27AE60" style="background:#27AE60;"></div>
+  <div class="accent-option" data-color="#F1C40F" style="background:#F1C40F;"></div>
+</div>
+
+
 
 
 
