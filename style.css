@@ -110,6 +110,29 @@ a:hover {
   <div class="accent-option" data-color="#F1C40F" style="background:#F1C40F;"></div>
 </div>
 
+.accent-picker {
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.accent-option {
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 2px solid #ffffff22;
+}
+
+.accent-option:hover {
+  border-color: #ffffff;
+}
+
+
 
 
 
