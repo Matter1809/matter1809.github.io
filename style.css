@@ -34,8 +34,7 @@ body {
   font-size: 32px;
   font-weight: 300;
   text-transform: lowercase;
-  color: var(--accent);
-  /*color: #D65465; /* nice red */
+  color: #D65465; /* nice red */
   margin-top: 40px;
 }
 a {
@@ -56,8 +55,7 @@ a:hover {
 }
 
 .post-list a {
-  /*color: #D65465; */
-  color: var(--accent);
+  color: #D65465;
   font-size: 24px;
   text-decoration: none;
 }
@@ -75,7 +73,7 @@ a:hover {
   display: inline-block;
   margin: 20px;
   font-size: 20px;
-  color: var(--accent);
+  color: #D65465;
   text-decoration: none;
 }
 
@@ -93,7 +91,7 @@ a:hover {
 }
 
 .download-list a {
-  color: var(--accent);
+  color: #D65465;
   font-size: 24px;
   text-decoration: none;
 }
@@ -101,39 +99,3 @@ a:hover {
 .download-list a:hover {
   text-decoration: underline;
 }
-
-<div class="accent-picker">
-  <div class="accent-option" data-color="#D65465" style="background:#D65465;"></div>
-  <div class="accent-option" data-color="#00aaff" style="background:#00aaff;"></div>
-  <div class="accent-option" data-color="#8E44AD" style="background:#8E44AD;"></div>
-  <div class="accent-option" data-color="#27AE60" style="background:#27AE60;"></div>
-  <div class="accent-option" data-color="#F1C40F" style="background:#F1C40F;"></div>
-</div>
-
-.accent-picker {
-  position: fixed;
-  right: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.accent-option {
-  width: 30px;
-  height: 30px;
-  border-radius: 4px;
-  cursor: pointer;
-  border: 2px solid #ffffff22;
-}
-
-.accent-option:hover {
-  border-color: #ffffff;
-}
-
-
-
-
-
-
