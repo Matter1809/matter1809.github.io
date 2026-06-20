@@ -38,7 +38,7 @@ body {
   margin-top: 40px;
 }
 a {
-  color: #00aaff;
+  color: #D65465;
   text-decoration: none;
 }
 
@@ -55,7 +55,7 @@ a:hover {
 }
 
 .post-list a {
-  color: #00aaff;
+  color: #D65465;
   font-size: 24px;
   text-decoration: none;
 }
@@ -73,7 +73,7 @@ a:hover {
   display: inline-block;
   margin: 20px;
   font-size: 20px;
-  color: #00aaff;
+  color: #D65465;
   text-decoration: none;
 }
 
@@ -91,7 +91,7 @@ a:hover {
 }
 
 .download-list a {
-  color: #00aaff;
+  color: #D65465;
   font-size: 24px;
   text-decoration: none;
 }
