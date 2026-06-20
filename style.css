@@ -34,7 +34,8 @@ body {
   font-size: 32px;
   font-weight: 300;
   text-transform: lowercase;
-  color: #D65465; /* nice red */
+  color: var(--accent);
+  /*color: #D65465; /* nice red */
   margin-top: 40px;
 }
 a {
@@ -55,7 +56,8 @@ a:hover {
 }
 
 .post-list a {
-  color: #D65465;
+  /*color: #D65465; */
+  color: var(--accent);
   font-size: 24px;
   text-decoration: none;
 }
@@ -73,7 +75,7 @@ a:hover {
   display: inline-block;
   margin: 20px;
   font-size: 20px;
-  color: #D65465;
+  color: var(--accent);
   text-decoration: none;
 }
 
@@ -91,7 +93,7 @@ a:hover {
 }
 
 .download-list a {
-  color: #D65465;
+  color: var(--accent);
   font-size: 24px;
   text-decoration: none;
 }
