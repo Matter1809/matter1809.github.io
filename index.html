@@ -5,6 +5,21 @@
   <title>genesis</title>
   <link rel="stylesheet" href="style.css">
 </head>
+<script>
+  document.querySelectorAll('.accent-option').forEach(option => {
+    option.addEventListener('click', () => {
+      const color = option.getAttribute('data-color');
+      document.documentElement.style.setProperty('--accent', color);
+      localStorage.setItem('accentColor', color);
+    });
+  });
+
+  const saved = localStorage.getItem('accentColor');
+  if (saved) {
+    document.documentElement.style.setProperty('--accent', saved);
+  }
+</script>
+
 <body>
 
   <header class="panorama">
